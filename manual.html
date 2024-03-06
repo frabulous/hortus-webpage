@@ -38,96 +38,110 @@
     <nav class="top-navbar">
         <div class="logo">
             <h5>Francesco Bultrini</h5>
-            <b>Geometria Computazionale a.a. 2023/2024</b>
+            <b>feb 2024</b>
         </div>
         <div class="nav-items">
             <a href="index.html">Home</a>
-            <a href="theory.html">Teoria</a>
-            <a href="manual.html">Manuale</a>
-            <a href="applet.html"><button>Applicazione</button></a>
+            <a href="theory.html">Theory</a>
+            <a href="manual.html">Manual</a>
+            <a href="applet.html"><button>Game</button></a>
         </div>
     </nav>
 
-    <div id="doc" class="markdown-body container-fluid comment-enabled" data-hard-breaks="true"><h1 id="MANUALE-UTENTE" data-id="MANUALE-UTENTE"><a class="anchor hidden-xs" href="#MANUALE-UTENTE" title="MANUALE-UTENTE"><span class="octicon octicon-link"></span></a><span>MANUALE UTENTE</span></h1><h2 id="Avvio" data-id="Avvio"><a class="anchor hidden-xs" href="#Avvio" title="Avvio"><span class="octicon octicon-link"></span></a><span>Avvio</span></h2><p><span>Una volta avviata l’applicazione, usare il mouse per fare clic sul pulsante <i><b>Start</i></b>.<br>L’utente si troverà in un ambiente di gioco tridimensionale nel quale potrà spostarsi e interagire utilizzando mouse e tastiera. La visuale sarà in prima persona. <br>Viene qui riportata la schermata iniziale.</span></p>
-
-<th style="text-align:center"><img src="images/mnl_start-world.jpg" alt="starting the game" loading="lazy"></th>
-</table><h3 id="Comandi" data-id="Comandi"><a class="anchor hidden-xs" href="#Comandi" title="Comandi"><span class="octicon octicon-link"></span></a><span>Comandi</span></h3><table>
-<thead>
-<tr>
-<th><span>Azione</span></th>
-<th><span>Comando</span></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><span>ruota telecamera</span></td>
-<td><span>movimento mouse</span></td>
-</tr>
-<tr>
-<td><span>interagisci</span></td>
-<td><span>clic mouse (tasto sinistro)</span></td>
-</tr>
-<tr>
-<td><span>spostati in avanti</span></td>
-<td><span>W</span></td>
-</tr>
-<tr>
-<td><span>spostati a sinistra</span></td>
-<td><span>A</span></td>
-</tr>
-<tr>
-<td><span>spostati all’indietro</span></td>
-<td><span>S</span></td>
-</tr>
-<tr>
-<td><span>spostati a destra</span></td>
-<td><span>D</span></td>
-</tr>
-<tr>
-<td><span>corri</span></td>
-<td><span>Shift sinistro (premuto)</span></td>
-</tr>
-<tr>
-<td><span>menu di pausa</span></td>
-<td><span>M oppure P</span></td>
-</tr>
-</tbody>
-</table><p><img src="images/mnl_controlsMap.jpg" alt="controlsMap" loading="lazy"></p><h2 id="Scopo-del-gioco" data-id="Scopo-del-gioco"><a class="anchor hidden-xs" href="#Scopo-del-gioco" title="Scopo-del-gioco"><span class="octicon octicon-link"></span></a><span>Scopo del gioco</span></h2><p><span>Il gioco ha un’ambientazione surreale e presenta al suo interno alcuni </span><em><span>puzzle</span></em><span>. Il giocatore è dunque invitato a esplorare - con calma - l’ambiente circostante per interpretarlo, trovare enigmi e cercarne la soluzione. Non esiste limite di tempo.</span></p>
-<th style="text-align:center"><img src="images/mnl_white-easel.jpg" alt="white easel with heads" loading="lazy"></th>
-<p><span>Gli enigmi sono rappresentati da </span><strong><span>cornici bianche</span></strong><span>, al cui interno è necessario inserire un oggetto - anch’esso </span><strong><span>bianco</span></strong><span> - che ne completi la composizione.</span></p><p><span>Questo oggetto va innanzitutto individuato all’interno dell’area corrente, mediante giochi prospettici e/o la risoluzione di </span><em><span>puzzle</span></em><span>. Sarà a questo punto afferrabile: basterà averlo al centro dell’inquadratura e premere una volta il tasto </span><em><span>“interagisci”</span></em><span> (clic del mouse). Si noti che, ogniqualvolta un oggetto puntato è interagibile, il mirino posto al centro dell’inquadratura cambierà aspetto per suggerirlo.</span></p><p><span>Una volta afferrato, l’oggetto verrà posto di fronte al giocatore e si muoverà con esso. Per smettere di trascinarlo, basterà premere un’altra volta il tasto </span><em><span>“interagisci”</span></em><span>.</span></p><p><span>Per risolvere un enigma, sarà quindi sufficiente portare l’oggetto all’interno della rispettiva cornice bianca e qui depositarlo.</span></p><p><span>Alla soluzione di ciascun enigma, il terreno di gioco verrà alterato e le proprietà topologiche della superficie su cui si procede, così trasformata, permetteranno di raggiungere nuove aree, prima inaccessibili.</span></p><p><span>In tali aree saranno presenti nuovi enigmi da risolvere, e così via.</span></p>
-<th style="text-align:center"><img src="images/mnl_cylindrified-world.jpg" alt="cylindrical world" loading="lazy"></th>
-<p><span>L’ultima area del gioco coincide con il </span><em><span>lato opposto</span></em><span> della superficie di gioco iniziale e sarà raggiungibile solo quando il terreno avrà assunto la forma di un </span><strong><span>nastro di Mobius</span></strong><span>.</span></p><p><span>Una volta risolto l’enigma presente in quest’area, il giocatore visualizzerà una schermata di fine gioco. Da qui sarà possibile tornare alla schermata iniziale facendo clic sul pulsante <i>Menu</i>.</span></p></div>
-    <div class="ui-toc dropup unselectable hidden-print" style="display:none;">
-        <div class="pull-right dropdown">
-            <a id="tocLabel" class="ui-toc-label btn btn-default" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" title="Table of content">
-                <i class="fa fa-bars"></i>
-            </a>
-            <ul id="ui-toc" class="ui-toc-dropdown dropdown-menu" aria-labelledby="tocLabel">
+    <div id="doc" class="markdown-body container-fluid comment-enabled" data-hard-breaks="true"><h1 id="USER-MANUAL" data-id="USER-MANUAL"><a class="anchor hidden-xs" href="#USER-MANUAL" title="USER-MANUAL"><span class="octicon octicon-link"></span></a><span>USER MANUAL</span></h1><h2 id="Starting-the-game" data-id="Starting-the-game"><a class="anchor hidden-xs" href="#Starting-the-game" title="Starting-the-game"><span class="octicon octicon-link"></span></a><span>Starting the game</span></h2><p><span>Once the application is launched, use the mouse to click on the </span><em><span>Start</span></em><span> button.</span></p><p><span>The user will find themselves in a three-dimensional gaming environment where they can move and interact using the mouse and keyboard. The viewpoint will be first-person.</span></p><table>
+        <thead>
+        <tr>
+        <th style="text-align:center"><img src="images/mnl_start-world.jpg" alt="starting the game" loading="lazy"></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+        <td style="text-align:center"><em><span>how the game appears from the first scenario</span></em></td>
+        </tr>
+        </tbody>
+        </table><h3 id="Controls" data-id="Controls"><a class="anchor hidden-xs" href="#Controls" title="Controls"><span class="octicon octicon-link"></span></a><span>Controls</span></h3><table>
+        <thead>
+        <tr>
+        <th><span>Action</span></th>
+        <th><span>Input</span></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+        <td><span>rotate camera</span></td>
+        <td><span>mouse move</span></td>
+        </tr>
+        <tr>
+        <td><span>interact</span></td>
+        <td><span>mouse left-click</span></td>
+        </tr>
+        <tr>
+        <td><span>move</span></td>
+        <td><span>W A S D</span></td>
+        </tr>
+        <tr>
+        <td><span>run</span></td>
+        <td><span>Shift (hold)</span></td>
+        </tr>
+        <tr>
+        <td><span>pause</span></td>
+        <td><span>M or P</span></td>
+        </tr>
+        </tbody>
+        </table><p><img src="images/mnl_controlsMap.jpg" alt="Controls Map" loading="lazy"></p><h2 id="Gameplay" data-id="Gameplay"><a class="anchor hidden-xs" href="#Gameplay" title="Gameplay"><span class="octicon octicon-link"></span></a><span>Gameplay</span></h2><p><span>The game is set in a surreal environment and features a variety of </span><em><span>puzzles</span></em><span>.</span></p><p><span>The players are invited to explore the surroundings at their own pace; interpret it, find puzzles and seek their solutions.</span></p><table>
+        <thead>
+        <tr>
+        <th style="text-align:center"><img src="images/mnl_white-easel.jpg" alt="white easel with heads" loading="lazy"></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+        <td style="text-align:center"><em><span>puzzles are represented by </span><strong><span>white frames</span></strong><span>; place a </span><strong><span>white object</span></strong><span> inside to complete the composition</span></em></td>
+        </tr>
+        </tbody>
+        </table><p><span>Upon solving each puzzle, the terrain will alter. Its new topological properties will allow access to new areas, previously inaccessible.</span></p><table>
+        <thead>
+        <tr>
+        <th style="text-align:center"><img src="images/mnl_cylindrified-world.jpg" alt="cylindrical world" loading="lazy"></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+        <td style="text-align:center"><em><span>the topology of the cylinder may now allow you to reach the other side of a wall</span></em></td>
+        </tr>
+        </tbody>
+        </table><p><span>These new areas will contain new puzzles to solve, and so forth.</span></p><p><span>The final area of the game corresponds to the opposite side of the initial game surface and will only be reachable when the terrain takes the form of a </span><strong><span>Moebius strip</span></strong><span>.</span></p><p><span>Once the puzzle in this area is solved, the player will see an end-game screen. From here, they can return to the main menu by clicking the button </span><em><span>Menu</span></em><span>.</span></p></div>
+            <div class="ui-toc dropup unselectable hidden-print" style="display:none;">
+                <div class="pull-right dropdown">
+                    <a id="tocLabel" class="ui-toc-label btn btn-default" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" title="Table of content">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                    <ul id="ui-toc" class="ui-toc-dropdown dropdown-menu" aria-labelledby="tocLabel">
+                        <div class="toc"><ul class="nav">
+        <li><a href="#USER-MANUAL" title="USER MANUAL">USER MANUAL</a><ul class="nav">
+        <li><a href="#Starting-the-game" title="Starting the game">Starting the game</a><ul class="nav">
+        <li><a href="#Controls" title="Controls">Controls</a></li>
+        </ul>
+        </li>
+        <li><a href="#Gameplay" title="Gameplay">Gameplay</a></li>
+        </ul>
+        </li>
+        </ul>
+        </div><div class="toc-menu"><a class="expand-toggle" href="#">Expand all</a><a class="back-to-top" href="#">Back to top</a><a class="go-to-bottom" href="#">Go to bottom</a></div>
+                    </ul>
+                </div>
+            </div>
+            <div id="ui-toc-affix" class="ui-affix-toc ui-toc-dropdown unselectable hidden-print" data-spy="affix" style="top:100px;display:none;" null null>
                 <div class="toc"><ul class="nav">
-<li><a href="#MANUALE-UTENTE" title="MANUALE UTENTE">MANUALE UTENTE</a><ul class="nav">
-<li><a href="#Avvio" title="Avvio">Avvio</a><ul class="nav">
-<li><a href="#Comandi" title="Comandi">Comandi</a></li>
-</ul>
-</li>
-<li><a href="#Scopo-del-gioco" title="Scopo del gioco">Scopo del gioco</a></li>
-</ul>
-</li>
-</ul>
-</div><div class="toc-menu"><a class="expand-toggle" href="#">Expand all</a><a class="back-to-top" href="#">Back to top</a><a class="go-to-bottom" href="#">Go to bottom</a></div>
-            </ul>
-        </div>
-    </div>
-    <div id="ui-toc-affix" class="ui-affix-toc ui-toc-dropdown unselectable hidden-print" data-spy="affix" style="top:100px;display:none;" null null>
-        <div class="toc"><ul class="nav">
-<li><a href="#MANUALE-UTENTE" title="MANUALE UTENTE">MANUALE UTENTE</a><ul class="nav">
-<li><a href="#Avvio" title="Avvio">Avvio</a><ul class="nav">
-<li><a href="#Comandi" title="Comandi">Comandi</a></li>
-</ul>
-</li>
-<li><a href="#Scopo-del-gioco" title="Scopo del gioco">Scopo del gioco</a></li>
-</ul>
-</li>
-</ul>
+        <li><a href="#USER-MANUAL" title="USER MANUAL">USER MANUAL</a><ul class="nav">
+        <li><a href="#Starting-the-game" title="Starting the game">Starting the game</a><ul class="nav">
+        <li><a href="#Controls" title="Controls">Controls</a></li>
+        </ul>
+        </li>
+        <li><a href="#Gameplay" title="Gameplay">Gameplay</a></li>
+        </ul>
+        </li>
+        </ul>
 </div><div class="toc-menu"><a class="expand-toggle" href="#">Expand all</a><a class="back-to-top" href="#">Back to top</a><a class="go-to-bottom" href="#">Go to bottom</a></div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
